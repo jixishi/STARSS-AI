@@ -1,0 +1,7 @@
+diff a/public/site.webmanifest b/public/site.webmanifest	(rejected hunks)
+@@ -1,4 +1,5 @@
+ {
++    "name": "STARSS ChatGPT",
+     "short_name": "ChatGPT",
+     "icons": [
+       {
