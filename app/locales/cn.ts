@@ -7,7 +7,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized: isApp
-      ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
+      ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。如果没有 OpenAI API Key则可前往[STARSS-Store](https://store.starss.cc/)购买。如已购买可前往[STARSS-Usage](https://usage.starss.cc/)"
       : "访问密码不正确或为空，请前往[设置](/#/settings)页输入正确的访问密码，或者填入你自己的 OpenAI API Key。如果没有 OpenAI API Key则可前往[STARSS-Store](https://store.starss.cc/)购买。",
   },
   Auth: {
@@ -262,7 +262,7 @@ const cn = {
     Usage: {
       Title: "余额查询",
       SubTitle(used: any, total: any) {
-        return `本月已使用 $${used}，订阅总额 $${total}`;
+        return `本月已使用 ${used}Token，订阅总额 ${total}Token`;
       },
       IsChecking: "正在检查…",
       Check: "重新检查",
